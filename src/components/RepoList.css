@@ -1,0 +1,14 @@
+.carda {
+     border: 0.4px solid grey;
+     padding: 2%;
+     box-shadow: 10px 10px 5px #df8a8a;
+     margin: 2% 0;
+     background: white;
+     opacity: 70%;
+     border-radius: 2%;
+}
+
+body, html{
+     background: rgb(80, 76, 161);
+     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}

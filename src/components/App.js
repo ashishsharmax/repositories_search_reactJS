@@ -1,7 +1,7 @@
 import React from 'react';
 import SearchBar from './SearchBar';
-import unsplash from '../api/unsplash';
-import ImageList from "./ImageList"
+import unsplash from '../api/githubapi';
+import RepoList from "./RepoList"
 
 
 
@@ -25,7 +25,7 @@ class App extends React.Component{
         <div className="ui container" style = {{ marginTop: '10px'}}>  
             <SearchBar onSubmit={this.onSearchSubmit} />
             
-            <ImageList repositories={this.state.repositories}/>
+            <RepoList repositories={this.state.repositories}/>
         </div>
         )
     }
